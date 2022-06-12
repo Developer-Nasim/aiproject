@@ -1,0 +1,26 @@
+.footer {
+    background: #0e1a2a;
+    padding-top: 51px;
+    margin-top: 100px;
+}
+
+.footer-wrp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.footer-wrp p {
+    margin: 0;
+}
+
+.footer-wrp ul {
+    display: flex;
+    align-items: center;
+}
+
+.footer-wrp ul li {
+    margin-left: 20px;
+}

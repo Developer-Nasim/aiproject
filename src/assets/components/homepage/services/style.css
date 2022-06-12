@@ -1,0 +1,26 @@
+.services {
+    padding: 100px 0;
+}
+
+.section_title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.services_list {margin-top: 10px;}
+
+.srv_blk {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.srv_blk img {
+    width: 50px;
+    filter: invert(1);
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.srv_blk a {
+    text-decoration: underline;
+}

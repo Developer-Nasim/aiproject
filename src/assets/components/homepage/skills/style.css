@@ -1,0 +1,19 @@
+.skills {
+    padding: 100px 0;
+}
+
+.skillsBar {
+    text-align: center;
+    margin-top: 50px;
+}
+.skillsBar .prg {
+    max-width: 200px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.skillsBar span {
+    display: block;
+    font-weight: 500;
+}

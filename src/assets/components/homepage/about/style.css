@@ -1,0 +1,26 @@
+.about {
+    padding-top: 100px;
+}
+
+.contents-img {
+    width: 100%; 
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.contents-wrp span {
+    font-size: 15px;
+    font-weight: 500;
+    color: #bdbdbd;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.contents-wrp .more-about {
+    display: flex;
+}
+
+.aboutBlk {
+    margin-right: 14px;
+}

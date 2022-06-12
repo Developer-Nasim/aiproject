@@ -1,0 +1,21 @@
+.why-chose-use ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.why-chose-use ul li {
+    display: block;
+    margin-bottom: 15px;
+    width: 32%;
+    background: #0d1826;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+.why-chose-use ul li b {
+    display: block;
+    font-size: 18px;
+}
+.section-title {
+    margin-bottom: 50px;
+}
