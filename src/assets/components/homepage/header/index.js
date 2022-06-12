@@ -37,15 +37,16 @@ function Header() {
                     </div>
                 </div>
             </div>
-            
+             
+
             {/* Header bottom */}
             <div className="header-bottom" style={{background: "url("+HeroBack+")",backgroundSize: "cover",backgroundPosition: "left center"}}>
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-5">
                             <div className="header-bottom-wrp">
-                                <h1>Artificial Intelligence for Business Applications</h1>
-                                <p>Ipsum amet aptent molestie finibus euismod sociosqu hac duis curae in</p>
+                                <h2>BUSINESS DEVELOP IN MACHINE LEARNING Reduction of Human Error </h2>
+                                <p>EMPOWERING YOUR BUSINESS WITH AI TECHNOLOGY Make IA working for you robot assembly line DIGITAL ENGINEERING EXPERTISE Bring your ideas to life with us</p>
                             </div>
                         </div>
                     </div>

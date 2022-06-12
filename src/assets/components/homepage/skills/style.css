@@ -17,3 +17,7 @@
     display: block;
     font-weight: 500;
 }
+.skillsBar h1 {
+    font-size: 60px;
+    font-style: italic;
+}

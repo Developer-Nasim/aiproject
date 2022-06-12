@@ -27,6 +27,7 @@ function Skills() {
                             <div className="prg">
                                 {/* <CircularProgressbar value={.81} strokeWidth={5} maxValue={1} text={`${.81 * 100}%`} />  */}
                             </div>
+                            <h1>81%</h1>
                             <span>COMPUTER VISION</span>
                         </div>
                     </div>
@@ -35,6 +36,7 @@ function Skills() {
                             <div className="prg">
                                 {/* <CircularProgressbar value={.81} strokeWidth={5} maxValue={1} text={`${.81 * 100}%`} />  */}
                             </div>
+                            <h1>81%</h1>
                             <span>AI DATA ANALYSIS </span>
                         </div>
                     </div>
@@ -43,6 +45,7 @@ function Skills() {
                             <div className="prg">
                                 {/* <CircularProgressbar value={.72} strokeWidth={5} maxValue={1} text={`${.72 * 100}%`} /> */}
                             </div>
+                            <h1>72%</h1>
                             <span>MACHINE LEARNING </span>
                         </div>
                     </div>
