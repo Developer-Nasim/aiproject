@@ -1,6 +1,6 @@
 import React from "react"; 
-import { CircularProgressbar } from 'react-circular-progressbar';
-import 'react-circular-progressbar/dist/styles.css';
+// import { CircularProgressbar } from 'react-circular-progressbar';
+// import 'react-circular-progressbar/dist/styles.css';
 import "./style.css"
 
  
@@ -25,7 +25,7 @@ function Skills() {
                     <div className="col-lg-4">
                         <div className="skillsBar"> 
                             <div className="prg">
-                                <CircularProgressbar value={.81} strokeWidth={5} maxValue={1} text={`${.81 * 100}%`} /> 
+                                {/* <CircularProgressbar value={.81} strokeWidth={5} maxValue={1} text={`${.81 * 100}%`} />  */}
                             </div>
                             <span>COMPUTER VISION</span>
                         </div>
@@ -33,7 +33,7 @@ function Skills() {
                     <div className="col-lg-4">
                         <div className="skillsBar"> 
                             <div className="prg">
-                                <CircularProgressbar value={.81} strokeWidth={5} maxValue={1} text={`${.81 * 100}%`} /> 
+                                {/* <CircularProgressbar value={.81} strokeWidth={5} maxValue={1} text={`${.81 * 100}%`} />  */}
                             </div>
                             <span>AI DATA ANALYSIS </span>
                         </div>
@@ -41,7 +41,7 @@ function Skills() {
                     <div className="col-lg-4">
                         <div className="skillsBar"> 
                             <div className="prg">
-                                <CircularProgressbar value={.72} strokeWidth={5} maxValue={1} text={`${.72 * 100}%`} />
+                                {/* <CircularProgressbar value={.72} strokeWidth={5} maxValue={1} text={`${.72 * 100}%`} /> */}
                             </div>
                             <span>MACHINE LEARNING </span>
                         </div>
