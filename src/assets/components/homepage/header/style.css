@@ -28,7 +28,7 @@ a.logo {
 .menu ul li > ul {
     position: absolute;
     top: 26px;
-    background: #fff;
+    background: #131328;
     color: #000;
     z-index: 2;
     right: 0;
@@ -38,6 +38,7 @@ a.logo {
     overflow: hidden;
     opacity: 0;
     visibility: hidden;
+    box-shadow: 0px 10px 30px -6px #ffffff1c;
 }
 .menu ul li:hover > ul{
     opacity: 1;
@@ -45,10 +46,13 @@ a.logo {
     top: 35px;
 }
 .menu ul li a {
-    font-weight: 500;
+    font-weight: 600;
     margin-left: 30px;
+    transition: .3s;
 }
-
+.menu ul li:hover > a{
+    color: #00e6dc;
+}
 .menu ul li > ul li {
     display: block;
     padding: 10px 15px;
@@ -61,6 +65,7 @@ a.logo {
     margin: 0;
     display: block;
     width: 100%;
+    color: #fff;
 }
 
 .menu ul li > ul li:hover {
@@ -72,8 +77,9 @@ a.logo {
     border: 1px solid #fff;
 }
 .menu ul li a.btn:hover{
-    color: #000;
-    background-color: #fff;
+    color: #fff;
+    background-color: #00e6dc;
+    border-color: #00e6dc;
 }
 .header-bottom {
     padding: 110px 0; 
@@ -82,5 +88,36 @@ a.logo {
     align-items: center;
     padding-top: 150px;
 }
+.header-bottom-wrp h2 {
+    margin-bottom: 20px;
+}
 
+a.subMenu:after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    right: 0;
+    top: 2px;
+    transform: rotate(-45deg);
+    transition: .3s;
+}
 
+a.subMenu {
+    padding-right: 25px;
+}
+
+.menu ul li:hover a.subMenu:after {
+    transform: rotate(-224deg);
+    top: 8px;
+    border-color: #00e6dc;
+}
+.header-top.sticky {
+    position: fixed;
+    background: #121228;
+    z-index: 99;
+    padding-bottom: 20px;
+    box-shadow: 0 0 10px 2px #ffffff17;
+}

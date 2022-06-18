@@ -1,21 +1,28 @@
-.why-chose-use ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.why-chose-use ul li {
+.whyUsBlk {
     display: block;
-    margin-bottom: 15px;
-    width: 32%;
-    background: #0d1826;
+    margin-bottom: 20px;
+    background: #ffffff05;
     border-radius: 5px;
-    padding: 20px;
+    padding: 50px 35px;
+    transition: .3s;
     text-align: center;
 }
-.why-chose-use ul li b {
+
+.whyUsBlk:hover {
+    background: #ffffff09;
+}
+.whyUsBlk b {
     display: block;
-    font-size: 18px;
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: 30px;
 }
 .section-title {
     margin-bottom: 50px;
+} 
+.whyUsBlk img {
+    display: block;
+    margin: auto;
+    height: 60px; 
+    filter: invert(1);
 }

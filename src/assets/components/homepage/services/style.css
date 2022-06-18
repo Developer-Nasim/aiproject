@@ -11,16 +11,25 @@
 
 .srv_blk {
     text-align: center;
-    margin: 0 20px;
+    background: #ffffff05;
+    padding: 40px;
+    border-radius: 10px;
+    transition: .3s;
 }
-
+.srv_blk:hover {
+    background: #ffffff09;
+}
 .srv_blk img {
     width: 50px;
     filter: invert(1);
     height: 50px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
-
+.srv_blk p {
+    min-height: 90px;
+    margin-top: 20px;
+}
 .srv_blk a {
     text-decoration: underline;
+    color: #00e6dc;
 }

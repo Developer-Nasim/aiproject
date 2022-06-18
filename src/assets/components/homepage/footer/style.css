@@ -1,6 +1,6 @@
 .footer {
-    background: #0e1a2a;
-    padding-top: 51px;
+    background: #0f0f22;
+    padding-top: 50px;
     margin-top: 100px;
 }
 
@@ -23,4 +23,8 @@
 
 .footer-wrp ul li {
     margin-left: 20px;
+    transition: .3s;
+}
+.footer-wrp ul li:hover{
+    color: #00e6dc;
 }

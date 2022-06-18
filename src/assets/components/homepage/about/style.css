@@ -12,15 +12,22 @@
 .contents-wrp span {
     font-size: 15px;
     font-weight: 500;
-    color: #bdbdbd;
+    color: #00e6dc;
     margin-bottom: 15px;
     display: block;
 }
-
+.contents-wrp h3 {
+    margin-bottom: 30px;
+}
 .contents-wrp .more-about {
     display: flex;
 }
 
 .aboutBlk {
     margin-right: 14px;
+}
+.aboutBlk h1 {
+    color: #00e6dc;
+    font-size: 60px;
+    margin-top: 20px;
 }

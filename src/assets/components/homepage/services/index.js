@@ -26,27 +26,27 @@ function Services() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 offset-lg-3">
-                        <div className="section_title">
+                        <div className="section-title" data-aos="zoom-out" data-aos-duration="1000">
                             <h1>Services</h1>
                         </div>
                     </div> 
                 </div>
                 <div className="row">
-                    <div className="col-lg-4">
+                    <div className="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">
                         <ServicesBlk 
                             img={AiImg} 
                             heading="AI Software Development" 
                             content="Transform Your Business With Custom-Built AI Software"
                         /> 
                     </div>
-                    <div className="col-lg-4"> 
+                    <div className="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"> 
                         <ServicesBlk 
                             img={FaceRecog} 
                             heading="Image Recognition" 
                             content="Robust custom solutions to serve your business needs"
                         /> 
                     </div>
-                    <div className="col-lg-4"> 
+                    <div className="col-lg-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"> 
                         <ServicesBlk 
                             img={ImgRecog} 
                             heading="Face Recognition" 

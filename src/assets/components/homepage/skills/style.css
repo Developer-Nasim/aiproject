@@ -1,10 +1,14 @@
+.all_skills {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 .skills {
     padding: 100px 0;
 }
 
 .skillsBar {
-    text-align: center;
-    margin-top: 50px;
+    text-align: center; 
 }
 .skillsBar .prg {
     max-width: 200px;
@@ -12,10 +16,11 @@
     margin: auto;
     margin-bottom: 10px;
 }
-
 .skillsBar span {
     display: block;
-    font-weight: 500;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 20px;
 }
 .skillsBar h1 {
     font-size: 60px;

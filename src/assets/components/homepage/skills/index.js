@@ -1,8 +1,8 @@
 import React from "react"; 
 // import { CircularProgressbar } from 'react-circular-progressbar';
 // import 'react-circular-progressbar/dist/styles.css';
-import "./style.css"
-
+import "./style.css" 
+import Progress from "../progressbar";
  
  
 
@@ -16,39 +16,28 @@ function Skills() {
             <div className="container">
                 <div className="row"> 
                     <div className="col-lg-6 offset-lg-3 text-center">
-                        <div className="section-title">
+                        <div className="section-title" data-aos="zoom-out" data-aos-duration="1000">
                             <h1>Skills</h1>
                         </div>
                     </div> 
-                </div>
+                </div>  
                 <div className="row">
-                    <div className="col-lg-4">
-                        <div className="skillsBar"> 
-                            <div className="prg">
-                                {/* <CircularProgressbar value={.81} strokeWidth={5} maxValue={1} text={`${.81 * 100}%`} />  */}
+                    <div className="col-lg-12">
+                        <div className="all_skills">
+                            <div className="skillsBar" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0">  
+                                <Progress strokeWidth={5} percentage={81} />
+                                <span>COMPUTER VISION</span>
                             </div>
-                            <h1>81%</h1>
-                            <span>COMPUTER VISION</span>
-                        </div>
-                    </div>
-                    <div className="col-lg-4">
-                        <div className="skillsBar"> 
-                            <div className="prg">
-                                {/* <CircularProgressbar value={.81} strokeWidth={5} maxValue={1} text={`${.81 * 100}%`} />  */}
+                            <div className="skillsBar" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">  
+                                <Progress strokeWidth={5} percentage={81} />
+                                <span>AI DATA ANALYSIS </span>
                             </div>
-                            <h1>81%</h1>
-                            <span>AI DATA ANALYSIS </span>
-                        </div>
-                    </div>
-                    <div className="col-lg-4">
-                        <div className="skillsBar"> 
-                            <div className="prg">
-                                {/* <CircularProgressbar value={.72} strokeWidth={5} maxValue={1} text={`${.72 * 100}%`} /> */}
+                            <div className="skillsBar" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">  
+                                <Progress strokeWidth={5} percentage={72} />
+                                <span>MACHINE LEARNING </span>
                             </div>
-                            <h1>72%</h1>
-                            <span>MACHINE LEARNING </span>
                         </div>
-                    </div>
+                    </div> 
                 </div>
             </div>
         </div>
